@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ehsan Faramarz | Facebook</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1b85a2dce5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img src="./images/facebookLogo.png" alt="Just a logo" class="logo">
+                <div class="search-box">
+                    <img src="./images/search.png">
+                    <input type="text" placeholder="Search Facebook...">
+                </div>
+            </div>
+            <div class="nav-center">
+                <ul>
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+                    <i class="fas fa-user-friends"></i>
+                    <i class="fas fa-users"></i>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fas fa-bell"></i>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="./images/Hacker.jpg">
+                </div>
+            </div>
+
+            <div class="settings-menu">
+                <div class="dark-btn">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="./images/Hacker.jpg">
+                        <div>
+                            <p>Ehsan Faramarz</p>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="./images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="./images/setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="./images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="./images/logout.png" class="settings-icon">
+                        <a href="#">Logout <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Profile Page -->
+        <div class="profile-container">
+            <img src="./images/ehsanCover.jpg" class="cover-img">
+            <div class="profile-details">
+                <div class="pd-left">
+                    <div class="pd-row">
+                        <img src="./images/Hacker.jpg" class="pd-image">
+                        <div>
+                            <h3>Ehsan Faramarz</h3>
+                            <p>1430 Friends</p>
+                            <a href="./user.html"><img src="./images/leo.jpg"></a>
+                            <img src="./images/Hersh.jpg">
+                            <img src="./images/Shalaw.jpg">
+                            <img src="./images/andam.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="pdf-right">
+                    <button type="button"><img src="./images/upload.png"> Add to Story</button>
+                    <button type="button"><i class="fas fa-pen"></i> Edit Profile</button>
+                    <br>
+                    <a href="#"><img src="./images/more.png"></a>
+                </div>
+            </div>
+
+            <div class="profile-info">
+                <div class="info-col">
+                    <div class="profile-intro">
+                        <h3>Intro</h3>
+                        <p class="intro-text">We cannot be sure of having something to live for unless we are willing to die for it.</p>
+                        <hr>
+                        <ul>
+                            <li><img src="./images/profile-job.png"> Content Writer at TechEye</li>
+                            <li><img src="./images/profile-study.png"> Studied at Chavar High School</li>
+                            <li><img src="./images/profile-study.png"> Went to Soran University</li>
+                            <li><img src="./images/profile-home.png"> Lives in Soran, Iraq</li>
+                            <li><img src="./images/profile-location.png"> From Erbil, Iraq</li>
+                        </ul>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Photos</h3>
+                            <a href="#">All Photos</a>
+                        </div>
+                        <div class="photo-box">
+                            <div><img src="./images/Hacker.jpg"></div>
+                            <div><img src="./images/Rajekar.png"></div>
+                            <div><img src="./images/techeye.jpg"></div>
+                            <div><img src="./images/scorpion.jpg"></div>
+                            <div><img src="./images/softify.png"></div>
+                            <div><img src="./images/webchin.png"></div>
+                        </div>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Friends</h3>
+                            <a href="#">All Friends</a>
+                        </div>
+                        <p>120 Friends</p>
+                        <div class="friends-box">
+                            <div><a href="./user.html"><img src="./images/leo.jpg"><p>Leo Kha</p></a></div>
+                            <div><img src="./images/andam.jpg"><p>Andam O</p></div>
+                            <div><img src="./images/Yahya.jpg"><p>Yahya H</p></div>
+                            <div><img src="./images/Shalaw.jpg"><p>Shalaw M</p></div>
+                            <div><img src="./images/hamaS.jpg"><p>Mohammed A</p></div>
+                            <div><img src="./images/hawar.jpg"><p>Hawar M</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-col">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="./images/Hacker.jpg">
+                            <div>
+                                <p>Ehsan Faramarz</p>
+                                <small>Public <i class="fas fa-caret-down"></i></small>
+                            </div>
+                        </div>
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="What's on your mind, Ehsan?"></textarea>
+                            <div class="add-post-list">
+                                <a href="#"><img src="./images/live-video.png"> Live Video</a>
+                                <a href="#"><img src="./images/photo.png"> Photo/Video</a>
+                                <a href="#"><img src="./images/feeling.png"> Feeling/Activities</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/softify-group.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/Rajekar.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/webchinGroup.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/ehsanCover.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/techeye.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="./images/Hacker.jpg">
+                                <div>
+                                    <p>Ehsan Faramarz</p>
+                                    <span>June 24 2021, 13:40 PM</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">One Day I Honestly Want To Say :Yeas I Made it...<br>5-12-2020</p>
+                        <img src="./images/scorpion.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="./images/like-blue.png" onclick="likeBtn()"> 120</div>
+                                <div><img src="./images/comments.png"> 45</div>
+                                <div><img src="./images/share.png"> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="./images/Hacker.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Copyright 2021 - TheXerr0r</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
