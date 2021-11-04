@@ -49,6 +49,11 @@ nav {
     font-size: 22px;
     cursor: pointer;
 }
+@media (max-width: 700px){
+    .nav-center {
+        width: auto;
+    }
+}
 .nav-right i{
     width: 30px;
     margin: 0 9px;
