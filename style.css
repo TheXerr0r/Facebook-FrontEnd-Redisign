@@ -30,6 +30,11 @@ nav {
     top: 0;
     z-index: 100;
 }
+@media (max-width: 700px) {
+    nav {
+        width: auto;
+    }
+}
 .logo{
     width: 35px;
     margin-right: 45px;
@@ -48,11 +53,6 @@ nav {
     color: #fff;
     font-size: 22px;
     cursor: pointer;
-}
-@media (max-width: 700px){
-    .nav-center {
-        width: auto;
-    }
 }
 .nav-right i{
     width: 30px;
